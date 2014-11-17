@@ -27,22 +27,22 @@ from time import time
 import os
 
 config.pluginfilter = ConfigSubsection()
-config.pluginfilter.opendroid = ConfigYesNo(default = False)
+config.pluginfilter.opendroid = ConfigYesNo(default = True)
 config.pluginfilter.po = ConfigYesNo(default = False)
 config.pluginfilter.src = ConfigYesNo(default = False)
 config.pluginfilter.kernel = ConfigYesNo(default = False)
-config.pluginfilter.drivers = ConfigYesNo(default = False)
+config.pluginfilter.drivers = ConfigYesNo(default = True)
 config.pluginfilter.extensions = ConfigYesNo(default = True)
 config.pluginfilter.gigabluesupportnet = ConfigYesNo(default = False)
 config.pluginfilter.addons = ConfigYesNo(default = True)
 config.pluginfilter.pli = ConfigYesNo(default = False)
-config.pluginfilter.security = ConfigYesNo(default = False)
+config.pluginfilter.security = ConfigYesNo(default = True)
 config.pluginfilter.settings = ConfigYesNo(default = True)
-config.pluginfilter.skins = ConfigYesNo(default = False)
+config.pluginfilter.skins = ConfigYesNo(default = True)
 config.pluginfilter.softcams = ConfigYesNo(default = True)
 config.pluginfilter.systemplugins = ConfigYesNo(default = True)
 config.pluginfilter.vix = ConfigYesNo(default = False)
-config.pluginfilter.weblinks = ConfigYesNo(default = False)
+config.pluginfilter.weblinks = ConfigYesNo(default = True)
 config.pluginfilter.userfeed = ConfigText(default = 'http://', fixed_size=False)
 
 ## command to find ipk with status hold
